@@ -3,3 +3,6 @@ Dataset/
 
 #忽视所有的log
 *log/
+
+#忽略Pycharm的配置
+.idea/
