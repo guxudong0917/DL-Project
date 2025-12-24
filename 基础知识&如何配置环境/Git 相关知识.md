@@ -49,3 +49,31 @@ dataset/temp
 ```
 
 在更改gitignore后，需要先把它提交到暂存区，然后git commit，这样之后才会生效
+
+### 如果不小心加错了
+
+**`git rm -r --cached .idea/` 用这条命令去把特定某一文件夹下的文件移除**
+
+## 如何把仓库关联到远程
+
+首先，在github上建立仓库，然后记下远程仓库的地址
+
+`git@github.com](mailto:git@github.com):guxudong0917/DL-Project.git`
+
+### git remote
+
+```
+# 格式：git remote add <远程仓库别名> <远程仓库地址>
+# 常用别名：origin（默认/推荐，可自定义）
+# 远程地址：复制你在远程平台创建仓库后的 HTTPS 或 SSH 地址
+```
+
+建立关联
+`git remote add origin git@github.com:guxudong0917/DL-Project.git` 
+
+### git push
+
+```
+# 格式：git push -u <远程仓库别名> <本地分支名>
+# -u：关联本地分支与远程分支，后续推送可直接用 git push（无需重复写别名和分支名）
+```

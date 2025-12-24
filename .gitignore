@@ -6,3 +6,6 @@ Dataset/
 
 #忽略Pycharm的配置
 .idea/
+
+#忽略保存的模型
+checkpoint/
