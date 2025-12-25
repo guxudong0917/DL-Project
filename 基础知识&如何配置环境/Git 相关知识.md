@@ -77,3 +77,20 @@ dataset/temp
 # 格式：git push -u <远程仓库别名> <本地分支名>
 # -u：关联本地分支与远程分支，后续推送可直接用 git push（无需重复写别名和分支名）
 ```
+### git diff
+用git diff查看和之前的不同
+###
+
+### git add
+用`git add ./` 去把所有的加进去，但是git add -p会更好，
+
+Stage this hunk [y,n,q,a,d,s,e,?]?
+会手动询问受否加这段：
+
+y：加这段
+
+n：不加
+
+s：拆分成更小块
+
+e：手动编辑
