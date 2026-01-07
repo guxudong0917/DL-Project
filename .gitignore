@@ -1,5 +1,6 @@
 #忽视数据集
 Dataset/
+Petfaces/
 
 #忽视所有的log
 *log/
